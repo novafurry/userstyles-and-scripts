@@ -1,0 +1,119 @@
+@-moz-document domain("instructure.com"), domain("qlearn.eq.edu.au") {
+#global_nav_help_link,
+#global_nav_history_link,
+.ic-DashboardCard__header-term,
+.ic-app-footer,
+.ic-DashboardCard__header-subtitle,
+.ic-DashboardCard__header-button-bg,
+aside,
+#dashboard_header_container, *[cursor="not-allowed"]{
+    display: none !important;
+}
+.ic-DashboardCard__header_image {
+    filter: blur(10px);
+}
+.ic-DashboardCard__header-title {
+    font-size: 1.5em;
+    margin-top: -100px;
+    text-align: center;
+}
+.ic-DashboardCard__header-title * {
+    color: white !important;
+}
+
+.ic-DashboardCard__action-container {
+    margin-top: -50px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.ic-DashboardCard__action-container * {
+    color: white;
+}
+
+.ic-dashboard-app {
+    width: 84vw;
+}
+.ic-Dashboard-header__layout {
+    border-bottom: 0px;
+}
+.ic-DashboardCard__box {
+    margin-top: -25px !important;
+}
+.ic-DashboardCard, .ic-DashboardCard__header_content{
+    background:none;
+}
+a *,
+a {
+    text-decoration: none !important;
+    color: inherit;
+    
+}
+.css-expp7s-view-flexItem {
+    width: 100%;
+    text-align: justify;
+    padding-left:8px !important;
+}
+.css-ty98t2-view-flexItem{
+    padding: 8px;
+    padding-top:0px !important;
+}
+.css-14jozxf-view--inlineBlock{
+    border: 0px;
+}
+.css-3z137p-view{
+    border-top:1px solid rgb(85, 101, 114) !important;
+}
+.css-14jozxf-view--inlineBlock{
+    padding-bottom:0px !important;
+}
+#application{
+    background:#191926;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#header{
+    background: none !important;
+    
+}
+.header-bar, .item-group-container, .item-group-container *{
+    background:none !important;
+}
+.header-bar *, .item-group-container *, .ic-app-crumbs, .ic-app-crumbs *{
+    background:none !important;
+    color:white;
+}
+span.css-1gto5tw-tray.transition--slide-left-entered {
+    background:none;
+    
+    backdrop-filter: blur(10px);
+}
+span.css-1gto5tw-tray.transition--slide-left-entered * {
+    color:white;
+}
+
+tbody.fc-body, tbody.fc-body * {
+    background:none !important;
+    color:white;
+}
+*{
+    color:white !important;
+}
+.ic-app-header__menu-list-item--active a{
+    background: rgba(0,0,0,0.5) !important;
+}
+nav#breadcrumbs:after {
+    display:inline;
+    font-size:x-small;
+    content: "VxInstructure v1 by NovaFurry (novafurry.win)";
+    position: absolute;
+    bottom:0px;
+    right:0px;
+    padding:10px;
+    background: #191926;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-radius:10px 0px 0px 0px;
+}
+}
